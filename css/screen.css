@@ -470,7 +470,8 @@ a:focus {
 		display: -webkit-flex;
 		display: -ms-flexbox;
 		display: flex;
-		flex-wrap: wrap;
+		justify-content: space-between;
+		align-items: center;
 	}
 
 	.c-header__nav {
