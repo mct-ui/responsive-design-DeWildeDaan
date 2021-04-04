@@ -626,6 +626,33 @@ a:focus {
 	background-color: #fff;
 }
 
+/*
+    Component: Title icon
+    ---
+    Special type of title with icon
+*/
+
+.c-title-icon {
+	height: 128px;
+	display: inline-flex;
+}
+
+.c-title-icon__icon {
+	height: 60%;
+}
+
+@media (min-width: 768px) {
+	.c-title-icon__icon {
+		height: 80%;
+	}
+}
+
+@media (min-width: 1200px) {
+	.c-title-icon__icon {
+		height: 100%;
+	}
+}
+
 /*------------------------------------*\
   #UTILITIES
 \*------------------------------------*/
